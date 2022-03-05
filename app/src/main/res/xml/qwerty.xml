@@ -81,7 +81,7 @@
     </Row>
 
     <Row>
-        <Key android:keyLabel="CAPS"
+        <Key android:keyIcon="@drawable/ic_caps"
             android:keyEdgeFlags="left"
             android:codes="-1"/>
         <Key android:keyLabel="z"
@@ -117,11 +117,11 @@
             android:keyWidth="40%p"
             android:isRepeatable="true"
             android:codes="32"/>
-        <Key android:keyLabel="DEL"
+        <Key android:keyIcon="@drawable/ic_delete"
             android:keyWidth="20%p"
             android:isRepeatable="true"
             android:codes="-5"/>
-        <Key android:keyLabel="DONE"
+        <Key android:keyLabel="@drawable/ic_done"
             android:keyWidth="20%p"
             android:keyEdgeFlags="right"
             android:codes="-4"/>

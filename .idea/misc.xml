@@ -3,6 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/work/Github/KJSKeyboard/app/src/main/res/drawable/gradiant_animation.xml" value="0.1305" />
+        <entry key="..\:/work/Github/KJSKeyboard/app/src/main/res/drawable/gradiant_center.xml" value="0.1305" />
+        <entry key="..\:/work/Github/KJSKeyboard/app/src/main/res/drawable/gradiant_end.xml" value="0.1305" />
+        <entry key="..\:/work/Github/KJSKeyboard/app/src/main/res/drawable/gradiant_start.xml" value="0.1305" />
+        <entry key="..\:/work/Github/KJSKeyboard/app/src/main/res/drawable/ic_caps.xml" value="0.20555555555555555" />
+        <entry key="..\:/work/Github/KJSKeyboard/app/src/main/res/drawable/ic_delete.xml" value="0.1305" />
+        <entry key="..\:/work/Github/KJSKeyboard/app/src/main/res/drawable/ic_done.xml" value="0.1305" />
+        <entry key="..\:/work/Github/KJSKeyboard/app/src/main/res/drawable/key_normal.xml" value="0.1305" />
+        <entry key="..\:/work/Github/KJSKeyboard/app/src/main/res/layout/layout_keyboard.xml" value="0.209375" />
         <entry key="..\:/work/KJSKeyboard/app/src/main/res/drawable/key_background.xml" value="0.21388888888888888" />
         <entry key="..\:/work/KJSKeyboard/app/src/main/res/drawable/key_normal.xml" value="0.21388888888888888" />
         <entry key="..\:/work/KJSKeyboard/app/src/main/res/drawable/key_pressed.xml" value="0.21388888888888888" />

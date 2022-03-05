@@ -11,4 +11,8 @@
     <color name="colorBackground">#25302F</color>
     <color name="colorDivider">#056159</color>
     <color name="colorPressed">#22423F</color>
+    <color name="colorTransparent">#00ffffff</color>
+    <color name="colorGradientStart">#D9FF43</color>
+    <color name="colorGradientCenter">#F67831</color>
+    <color name="colorGradientEnd">#FF1493</color>
 </resources>

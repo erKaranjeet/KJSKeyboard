@@ -6,6 +6,7 @@
     android:keyTextColor="@color/white"
     android:keyBackground="@drawable/key_background"
     android:keyPreviewLayout="@layout/layout_key_preview"
-    android:background="@color/colorBackground">
+    android:background="@drawable/gradiant_animation"
+    android:id="@+id/keyboard_view">
 
 </android.inputmethodservice.KeyboardView>

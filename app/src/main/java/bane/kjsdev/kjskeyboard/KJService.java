@@ -2,6 +2,7 @@ package bane.kjsdev.kjskeyboard;
 
 import android.app.Service;
 import android.content.Intent;
+import android.graphics.drawable.AnimationDrawable;
 import android.inputmethodservice.InputMethodService;
 import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.KeyboardView;
@@ -24,6 +25,12 @@ public class KJService extends InputMethodService implements KeyboardView.OnKeyb
         keyboard = new Keyboard(this, R.xml.qwerty);
         keyboardView.setKeyboard(keyboard);
         keyboardView.setOnKeyboardActionListener(this);
+
+        keyboardView.setBackgroundDrawable(getResources().getDrawable(R.drawable.gradiant_animation));
+        AnimationDrawable drawable = (AnimationDrawable) keyboardView.getBackground();
+        drawable.setEnterFadeDuration(10);
+        drawable.setExitFadeDuration(5000);
+        drawable.start();
 
         return keyboardView;
     }
